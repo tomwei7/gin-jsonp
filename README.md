@@ -2,6 +2,12 @@
 
 JSONP Middleware for Gin Framework
 
+### install
+
+```
+go get https://github.com/tomwei7/gin-jsonp
+```
+
 ### usage
 
 ```
