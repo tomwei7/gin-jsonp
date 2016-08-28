@@ -10,7 +10,7 @@ go get https://github.com/tomwei7/gin-jsonp
 
 ### usage
 
-```
+```go
 package main
 
 import (
