@@ -108,6 +108,7 @@ func JsonP() gin.HandlerFunc {
 			c.Next()
 		} else {
 			brw := newbResponseWriter(c.Writer, callback)
+			brw.Header().Set("Content-Type", "application/javascript")
 			c.Writer = brw
 			c.Next()
 			brw.Flush()
